@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="">
+    <!-- {% load static %} -->
+</head>
+
+<body> <!--whole browser page-->
+    <h1>My Registration Form</h1>
+    <br>
+    <form>
+        <label>
+            First Name: <br>
+            <input type="text" name="first_name" >
+        </label>
+        <br><br>
+        <label>
+            Last Name: <br>
+            <input type="text" name="last_name">
+        </label>
+        <br><br>
+        <label>
+            Email: <br>
+            <input type="text" name="email">
+        </label>
+        <br><br>
+        <label>
+            Password: <br>
+            <input type="password" name="password">
+        </label>
+        <br><br>
+        <label>
+            PW Confirm: <br>
+            <input type="password" name="c_password">
+        </label>
+        <br><br>
+        <label>
+            Birthday: <br>
+            <input type="date" name="bDay">
+        </label>
+        <br><br>
+        <label>
+            Male <input type="radio" name="gender" value="male">
+        </label>
+        <label>
+            Female <input type="radio" name="gender" value="female">
+        </label>
+        <label>
+            Prefer Not to Say <input type="radio" name="gender" value="decline">
+        </label>
+        <p>A short description about yourself:</p>
+        <textarea name="description" rows="5"></textarea>
+        <br><br>
+        <label>Favorite Language:</label>
+        <select name="language">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+        <br><br>
+        <label>
+            <input type="submit" value="Submit">
+        </label>
+    </form>
+
+
+
+
+
+</body>
+</html>
